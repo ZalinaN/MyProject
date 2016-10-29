@@ -1,0 +1,20 @@
+{
+  "name": "qqq",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ZalinaN <git@github.com:ZalinaN>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ZalinaN/new",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
