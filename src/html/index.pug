@@ -1,0 +1,19 @@
+extends ../templates/layout
+block content
+	div.content  это контент
+	include ../templates/menu
+	-i = 0
+	while i<10
+		+breadcrumbs({
+			breadcrumbs:[
+				{
+					name: 'Главная ',
+					link: 'index.html'
+				},
+				{
+					name: 'Новость'
+				}
+			]
+		})
+		- i++
+

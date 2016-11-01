@@ -20,6 +20,8 @@
     "bower": "^1.7.9",
     "browser-sync": "^2.17.5",
     "gulp-pug": "^3.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-scss": "^1.4.0",
     "gulp-watch": "^4.3.10"
   },
   "dependencies": {
