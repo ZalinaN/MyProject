@@ -1,6 +1,28 @@
+$blue-color: blue;
+$pink-color:pink;
+$base-font-size: 14px;
+$base-line-height:24px;
+
+@import "parts/buttons.scss";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
 html{
-	background:#fcccbc;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
 }
-span{
-	color:blue;
+
+.content{
+	background-color: $blue-color;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin: 10px;
+	border: 10px solid #eac;
+	box-sizing:content-box;
+
+
+	&:hover{
+		height: 200px;
+		width:200px;
+	}
 }
